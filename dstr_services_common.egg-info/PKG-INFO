@@ -1,14 +1,31 @@
 Metadata-Version: 2.1
 Name: dstr-services-common
-Version: 0.1
+Version: 0.1.1
 Summary: Common functions for Django SQL To Rest Microservices
 Home-page: https://github.com/hbolzan/sql-to-rest-services-common
-Author: Henrique Bolzan Baista
+Author: Henrique Bolzan Batista
 Author-email: henrique@bolzan.com.br
 License: UNKNOWN
 Description: # Django SQL To REST Microservices Common Lib
         
         This package provides common functions to Django SQL To REST Microservices ecosystem.
+        
+        ## Compiling
+        
+        Install or update the required packages
+        ```
+        pip install --upgrade setuptools wheel
+        ```
+        
+        To compile the package run
+        ```
+        python3 setup.py sdist bdist_wheel
+        ```
+        
+        In the service `requirements.txt` file add the following line
+        ```
+        git+https://github.com/hbolzan/sql-to-rest-services-common.git
+        ```
         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
