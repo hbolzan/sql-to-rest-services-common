@@ -1,0 +1,4 @@
+# common constants
+
+HTTP_STATUS_OK = 200
+HTTP_STATUS_ERROR = 400
