@@ -1,4 +1,4 @@
-from consts import (
+from dstr_common_lib.consts import (
     CONFIG,
     HTTP_STATUS_OK,
     HTTP_STATUS_NOT_IMPLEMENTED,
