@@ -1,3 +1,5 @@
+from nameko.exceptions import UnknownService
+from nameko.standalone.rpc import ServiceRpcProxy
 from dstr_common_lib.consts import (
     CONFIG,
     HTTP_STATUS_OK,
