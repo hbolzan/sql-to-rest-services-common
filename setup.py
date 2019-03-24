@@ -3,7 +3,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
     name='dstr-services-common',
-    version='0.1.5',
+    version='0.1.6',
     author="Henrique Bolzan Batista",
     author_email="henrique@bolzan.com.br",
     description="Common functions for Django SQL To Rest Microservices",

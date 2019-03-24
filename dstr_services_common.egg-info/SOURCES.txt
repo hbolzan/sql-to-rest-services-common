@@ -2,6 +2,7 @@ README.md
 setup.py
 dstr_common_lib/__init__.py
 dstr_common_lib/consts.py
+dstr_common_lib/controller.py
 dstr_common_lib/responses.py
 dstr_common_lib/util.py
 dstr_services_common.egg-info/PKG-INFO
