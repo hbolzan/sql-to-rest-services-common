@@ -18,3 +18,5 @@ In the service `requirements.txt` file add the following line
 ```
 git+https://github.com/hbolzan/sql-to-rest-services-common.git
 ```
+
+More about python packaging at https://packaging.python.org/tutorials/packaging-projects/
