@@ -1,5 +1,6 @@
 def exec_sql_with_result(sql, cursor):
-    return dictfetchall(cursor.execute(sql))
+    cursor.execute(sql)
+    return dictfetchall(cursor)
 
 
 def dictfetchall(cursor):
