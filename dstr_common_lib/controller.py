@@ -23,7 +23,7 @@ def handle_service_request(service_name, method_name, param=None, **kwargs):
 
 def handle_simple_service_request(service_name, method_name, param=None, **kwargs):
     try:
-        rpc_response = get_rpc_response(service_name, method_name, param, **kwargs)
+        return get_rpc_response(service_name, method_name, param, **kwargs)
     except UnknownService:
         return None
 

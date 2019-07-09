@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: dstr-services-common
-Version: 0.1.8
+Version: 0.1.9
 Summary: Common functions for Django SQL To Rest Microservices
 Home-page: https://github.com/hbolzan/sql-to-rest-services-common
 Author: Henrique Bolzan Batista
